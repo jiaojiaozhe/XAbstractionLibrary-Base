@@ -1,0 +1,31 @@
+{
+  "name": "XAbstractionLibrary-Base",
+  "version": "0.1.0",
+  "summary": "A short description of XAbstractionLibrary-Base.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lanbiao/XAbstractionLibrary-Base",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lanbiao": "bluebiao@163.com"
+  },
+  "source": {
+    "git": "https://github.com/lanbiao/XAbstractionLibrary-Base.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XAbstractionLibrary-Base/Classes/**/*",
+  "frameworks": "AdSupport",
+  "dependencies": {
+    "MD5Digest": [
+      "~> 1.1.0"
+    ],
+    "OpenUDID": [
+      "~> 1.0.0"
+    ]
+  }
+}

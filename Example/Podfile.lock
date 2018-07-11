@@ -1,0 +1,27 @@
+PODS:
+  - MD5Digest (1.1.0)
+  - OpenUDID (1.0.0)
+  - XAbstractionLibrary-Base (0.1.0):
+    - MD5Digest (~> 1.1.0)
+    - OpenUDID (~> 1.0.0)
+
+DEPENDENCIES:
+  - XAbstractionLibrary-Base (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MD5Digest
+    - OpenUDID
+
+EXTERNAL SOURCES:
+  XAbstractionLibrary-Base:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MD5Digest: fea371215507cfcdc3c9633d02cffc7fd075ebc3
+  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  XAbstractionLibrary-Base: 61142c0949bbe77ba528df18531e7395219e6188
+
+PODFILE CHECKSUM: 82a78a75182f8d4db423e1445fe0c2f93734dd3d
+
+COCOAPODS: 1.5.0
