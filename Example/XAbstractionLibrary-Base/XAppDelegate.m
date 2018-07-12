@@ -7,7 +7,6 @@
 //
 
 #import "XAppDelegate.h"
-#import "XGlobalMacros.h"
 
 @implementation XAppDelegate
 
