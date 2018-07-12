@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XAbstractionLibrary-Base'
-  s.version          = '0.0.1'
+  s.version          = '0.0.4'
   s.summary          = 'XAbstractionLibrary-Base是最基础抽象化组件.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: XAbstractionLibrary-Base是最基础抽象化组件，主要用于常用�
   s.homepage         = 'https://github.com/jiaojiaozhe/XAbstractionLibrary-Base'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'lanbiao' => 'bluebiao@163.com' }
+  s.author           = { 'jiaojiaozhe' => 'bluebiao@163.com' }
   s.source           = { :git => 'https://github.com/jiaojiaozhe/XAbstractionLibrary-Base.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
