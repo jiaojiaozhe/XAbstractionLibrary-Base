@@ -1,7 +1,7 @@
 PODS:
   - MD5Digest (1.1.0)
   - OpenUDID (1.0.0)
-  - XAbstractionLibrary-Base (0.1.0):
+  - XAbstractionLibrary-Base (0.0.2):
     - MD5Digest (~> 1.1.0)
     - OpenUDID (~> 1.0.0)
 
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   MD5Digest: fea371215507cfcdc3c9633d02cffc7fd075ebc3
   OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
-  XAbstractionLibrary-Base: 61142c0949bbe77ba528df18531e7395219e6188
+  XAbstractionLibrary-Base: 75e03850f78051fd5d4cf4570d7db3fe4a7231bd
 
 PODFILE CHECKSUM: 82a78a75182f8d4db423e1445fe0c2f93734dd3d
 

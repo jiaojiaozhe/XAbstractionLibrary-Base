@@ -1,9 +1,9 @@
 {
   "name": "XAbstractionLibrary-Base",
-  "version": "0.1.0",
-  "summary": "A short description of XAbstractionLibrary-Base.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/lanbiao/XAbstractionLibrary-Base",
+  "version": "0.0.2",
+  "summary": "XAbstractionLibrary-Base是最基础抽象化组件.",
+  "description": "TODO: XAbstractionLibrary-Base是最基础抽象化组件，主要用于常用三方组件的版本管理、以及提供常用一些功能工具.",
+  "homepage": "https://github.com/jiaojiaozhe/XAbstractionLibrary-Base",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "lanbiao": "bluebiao@163.com"
   },
   "source": {
-    "git": "https://github.com/lanbiao/XAbstractionLibrary-Base.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/jiaojiaozhe/XAbstractionLibrary-Base.git",
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"
