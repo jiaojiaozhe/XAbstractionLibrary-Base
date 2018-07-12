@@ -1,6 +1,6 @@
 {
   "name": "XAbstractionLibrary-Base",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "summary": "XAbstractionLibrary-Base是最基础抽象化组件.",
   "description": "TODO: XAbstractionLibrary-Base是最基础抽象化组件，主要用于常用三方组件的版本管理、以及提供常用一些功能工具.",
   "homepage": "https://github.com/jiaojiaozhe/XAbstractionLibrary-Base",
@@ -9,11 +9,11 @@
     "file": "LICENSE"
   },
   "authors": {
-    "lanbiao": "bluebiao@163.com"
+    "jiaojiaozhe": "bluebiao@163.com"
   },
   "source": {
     "git": "https://github.com/jiaojiaozhe/XAbstractionLibrary-Base.git",
-    "tag": "0.0.2"
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "8.0"
