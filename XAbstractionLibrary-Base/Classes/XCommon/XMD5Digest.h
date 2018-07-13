@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 lanbiao. All rights reserved.
 //
 
-#import "XBaseModel.h"
+#import <Foundation/Foundation.h>
 
-@interface XMD5Digest : XBaseModel
+@interface XMD5Digest : NSObject
 
 /**
  *  对字符串取md5值

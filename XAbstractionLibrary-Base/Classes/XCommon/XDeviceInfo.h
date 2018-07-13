@@ -6,12 +6,12 @@
 //  Copyright (c) 2015年 lanbiao. All rights reserved.
 //
 
-#import "XBaseModel.h"
+#import <Foundation/Foundation.h>
 
 /**
  *  获得设备信息
  */
-@interface XDeviceInfo : XBaseModel
+@interface XDeviceInfo : NSObject
 
 /**
  *  获取设备的idfa，设备无法取得时，通过软生成产生唯一的，持久化处理过

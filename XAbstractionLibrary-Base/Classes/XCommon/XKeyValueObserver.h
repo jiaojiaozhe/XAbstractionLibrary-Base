@@ -6,9 +6,9 @@
 //  Copyright © 2016年 lanbiao. All rights reserved.
 //
 
-#import "XBaseModel.h"
+#import <Foundation/Foundation.h>
 
-@interface XKeyValueObserver : XBaseModel
+@interface XKeyValueObserver : NSObject
 
 /**
  *  构建观察者helper
