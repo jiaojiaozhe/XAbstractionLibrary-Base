@@ -6,12 +6,13 @@
 //  Copyright (c) 2015年 lanbiao. All rights reserved.
 //
 
+#import "XData.h"
 #import <Foundation/Foundation.h>
 
 /**
  *  持久存储数据
  */
-@interface XPermanentStoreData : NSObject
+@interface XPermanentStoreData : XData
 
 /**
  *  持久化字符串

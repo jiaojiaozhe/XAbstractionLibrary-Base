@@ -6,9 +6,10 @@
 //  Copyright (c) 2015年 lanbiao. All rights reserved.
 //
 
+#import "XData.h"
 #import <Foundation/Foundation.h>
 
-@interface XMD5Digest : NSObject
+@interface XMD5Digest : XData
 
 /**
  *  对字符串取md5值

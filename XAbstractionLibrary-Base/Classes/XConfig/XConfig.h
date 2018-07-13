@@ -5,7 +5,7 @@
 //  Created by lanbiao on 2018/7/26.
 //
 
-#import "XDataManangerMacro.h"
+#import "XData.h"
 #import <Foundation/Foundation.h>
 
 /**
@@ -13,5 +13,5 @@
  *  基础配置对象
  */
 
-@interface XConfig : NSObject
+@interface XConfig : XData
 @end

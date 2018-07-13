@@ -6,12 +6,13 @@
 //  Copyright (c) 2015年 lanbiao. All rights reserved.
 //
 
+#import "XData.h"
 #import <Foundation/Foundation.h>
 
 /**
  *  获取app信息
  */
-@interface XAppInfo : NSObject
+@interface XAppInfo : XData
 
 /**
  *  获取app版本号
