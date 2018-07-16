@@ -58,9 +58,6 @@
         if(index > [self count] - 1){
             XLOG(@"index too max!");
             return;
-        }else if(index < 0){
-            XLOG(@"index too min!");
-            return;
         }
         
         [self safeInsertObject:anObject atIndex:index];
@@ -75,11 +72,6 @@
             return;
         }
         
-        if(!indexes || [indexes count] < 0){
-            XLOG(@"indexes is empty!");
-            return;
-        }
-        
         [self safeInsertObjects:objects atIndexes:indexes];
     }
 }
@@ -91,8 +83,6 @@
         {
             XLOG(@"index too max!");
             return;
-        }else if(index < 0){
-            XLOG(@"index too min!");
         }
         
         [self safeRemoveObjectAtIndex:index];
@@ -110,9 +100,6 @@
         if(index > [self count] - 1)
         {
             XLOG(@"index too max.");
-            return;
-        }else if(index < 0){
-            XLOG(@"index too min.");
             return;
         }
         

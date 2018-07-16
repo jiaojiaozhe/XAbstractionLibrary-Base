@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XAbstractionLibrary-Base'
-  s.version          = '0.0.8'
+  s.version          = '0.0.9'
   s.summary          = 'XAbstractionLibrary-Base是最基础抽象化组件.'
 
 # This description is used to generate tags and improve search results.
@@ -43,6 +43,6 @@ TODO: XAbstractionLibrary-Base是最基础抽象化组件，主要用于常用�
     s.frameworks = 'AdSupport'
     
     
-    s.dependency 'MD5Digest', '~> 1.1.0'
-    s.dependency 'OpenUDID', '~> 1.0.0'
+    s.dependency 'MD5Digest'
+    s.dependency 'OpenUDID'
 end

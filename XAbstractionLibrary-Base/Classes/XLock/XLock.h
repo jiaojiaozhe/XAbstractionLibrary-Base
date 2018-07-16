@@ -1,19 +1,30 @@
 //
-//  XRecursiveLock.h
+//  XLock.h
 //  XAbstractionLibrary
 //
-//  Created by lanbiao on 15/07/29.
+//  Created by lanbiao on 15/7/15.
 //  Copyright (c) 2015年 lanbiao. All rights reserved.
 //
 
 #import "XData.h"
 
-typedef void(^lockBlock)();
+typedef void(^lockBlock)(void);
 
 /**
- *  RecursiveLock基础锁对象，替换系统NSRecursiveLock
+ *  基础锁对象
  */
-@interface XRecursiveLock : XData
+@interface XLock : XData
+
+/**
+ *  加锁，等同于NSLock对象的lock动作
+ */
+- (void) lock;
+
+/**
+ *  解锁，等同于NSLock对象的unlock动作
+ */
+- (void) unlock;
+
 /**
  *  锁定原子执行block代码块
  *

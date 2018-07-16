@@ -1,5 +1,5 @@
 //
-//  XConditionLock.h
+//  XCondition.h
 //  XAbstractionLibrary
 //
 //  Created by lanbiao on 15/7/12.
@@ -8,39 +8,20 @@
 
 #import "XData.h"
 
-typedef NS_ENUM(NSUInteger, XConditioData) {
-    XConditioData_NO,
-    XConditioData_HasData
-};
+typedef NSUInteger (^lockStateBlock)(void);
+typedef void(^lockBlock)(void);
 
-typedef NSUInteger (^lockStateBlock)();
-typedef void(^lockBlock)();
-/**
- ConditionLock所对象类，用于代替NSConditionLock
- */
-@interface XConditionLock : XData
+@interface XCondition : XData
 
 /**
- *  获取锁条件
+ *  锁定原子执行block代码块
  *
- *  @return 返回条件
+ *  @param lockblock 成功加锁后待执行的block
  */
-- (XConditioData) condition;
-
+- (void) lock:(lockBlock) lockblock;
 
 /**
- *  加锁
- */
-- (void) lock;
-
-
-/**
- *  解锁
- */
-- (void) unlock;
-
-/**
- *  在默认的5秒内，获得读取数据锁,成功就执行代码块，否则直接返回
+ *  在默认的5秒内，获得读取数据锁,成功就执行代码块，并且根据返回结果重置条件。否则直接返回
  *
  *  @param lockblock 获取到锁后，待执行的代码块
  *
@@ -49,7 +30,7 @@ typedef void(^lockBlock)();
 - (BOOL) readDataWithLockStateLock:(lockStateBlock)lockStateBlock WithLockBlock:(lockBlock) lockblock;
 
 /**
- *  在指定的时间内，获得读取数据锁,成功就执行代码块,否则直接返回
+ *  在指定的时间内，获得读取数据锁,成功就执行代码块，并且根据返回结果重置条件。否则直接返回
  *
  *  @param lockblock 获取到锁后，待执行的代码块
  *
