@@ -55,7 +55,7 @@
             return;
         }
         
-        if(index > [self count] - 1){
+        if(index >= [self count] + 1){
             XLOG(@"index too max!");
             return;
         }
@@ -67,7 +67,7 @@
 - (void) safeInsertObjects:(NSArray *)objects atIndexes:(NSIndexSet *)indexes
 {
     @autoreleasepool{
-        if(!objects || [objects count] < 0){
+        if(!objects || [objects count] <= 0){
             XLOG(@"object is empty!");
             return;
         }
