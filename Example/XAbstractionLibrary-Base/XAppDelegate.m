@@ -7,6 +7,7 @@
 //
 
 #import "XAppDelegate.h"
+#import "XData.h"
 
 @implementation XAppDelegate
 
