@@ -37,7 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03C557A89946A6B06C4E14CF /* Pods-XAbstractionLibrary-Base_Tests.prerelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XAbstractionLibrary-Base_Tests.prerelease.xcconfig"; path = "Pods/Target Support Files/Pods-XAbstractionLibrary-Base_Tests/Pods-XAbstractionLibrary-Base_Tests.prerelease.xcconfig"; sourceTree = "<group>"; };
 		297237535BF9DA5AB796C115 /* Pods-XAbstractionLibrary-Base_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XAbstractionLibrary-Base_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XAbstractionLibrary-Base_Example/Pods-XAbstractionLibrary-Base_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3415CEEBBCF7D7AC32DC95B2 /* Pods-XAbstractionLibrary-Base_Example.prerelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XAbstractionLibrary-Base_Example.prerelease.xcconfig"; path = "Pods/Target Support Files/Pods-XAbstractionLibrary-Base_Example/Pods-XAbstractionLibrary-Base_Example.prerelease.xcconfig"; sourceTree = "<group>"; };
 		4337E157E374CFC1B747506F /* Pods-XAbstractionLibrary-Base_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XAbstractionLibrary-Base_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XAbstractionLibrary-Base_Example/Pods-XAbstractionLibrary-Base_Example.release.xcconfig"; sourceTree = "<group>"; };
 		579F2BF090B2B3D3D0264E97 /* Pods_XAbstractionLibrary_Base_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XAbstractionLibrary_Base_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* XAbstractionLibrary-Base_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XAbstractionLibrary-Base_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,6 +196,8 @@
 				4337E157E374CFC1B747506F /* Pods-XAbstractionLibrary-Base_Example.release.xcconfig */,
 				E3BD3FCEFE57F6D86A3C31B0 /* Pods-XAbstractionLibrary-Base_Tests.debug.xcconfig */,
 				850AA41384C502496A1F56AD /* Pods-XAbstractionLibrary-Base_Tests.release.xcconfig */,
+				3415CEEBBCF7D7AC32DC95B2 /* Pods-XAbstractionLibrary-Base_Example.prerelease.xcconfig */,
+				03C557A89946A6B06C4E14CF /* Pods-XAbstractionLibrary-Base_Tests.prerelease.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -347,7 +351,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-XAbstractionLibrary-Base_Example/Pods-XAbstractionLibrary-Base_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-XAbstractionLibrary-Base_Example/Pods-XAbstractionLibrary-Base_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MD5Digest/MD5Digest.framework",
 				"${BUILT_PRODUCTS_DIR}/OpenUDID/OpenUDID.framework",
 				"${BUILT_PRODUCTS_DIR}/XAbstractionLibrary-Base/XAbstractionLibrary_Base.framework",
@@ -360,7 +364,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XAbstractionLibrary-Base_Example/Pods-XAbstractionLibrary-Base_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XAbstractionLibrary-Base_Example/Pods-XAbstractionLibrary-Base_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -505,6 +509,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XAbstractionLibrary-Base/XAbstractionLibrary-Base-Prefix.pch";
 				INFOPLIST_FILE = "XAbstractionLibrary-Base/XAbstractionLibrary-Base-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.study.xabstractionlibrary.base;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -527,6 +532,7 @@
 					"RELEASE=1",
 				);
 				INFOPLIST_FILE = "XAbstractionLibrary-Base/XAbstractionLibrary-Base-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.study.xabstractionlibrary.base;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -613,7 +619,7 @@
 		};
 		BCD10E5A25032A7A00FD9483 /* Prerelease */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4337E157E374CFC1B747506F /* Pods-XAbstractionLibrary-Base_Example.release.xcconfig */;
+			baseConfigurationReference = 3415CEEBBCF7D7AC32DC95B2 /* Pods-XAbstractionLibrary-Base_Example.prerelease.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "XAbstractionLibrary-Base_Example.entitlements";
@@ -626,6 +632,7 @@
 					"PRERELEASE=1",
 				);
 				INFOPLIST_FILE = "XAbstractionLibrary-Base/XAbstractionLibrary-Base-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.study.xabstractionlibrary.base;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -635,7 +642,7 @@
 		};
 		BCD10E5B25032A7A00FD9483 /* Prerelease */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 850AA41384C502496A1F56AD /* Pods-XAbstractionLibrary-Base_Tests.release.xcconfig */;
+			baseConfigurationReference = 03C557A89946A6B06C4E14CF /* Pods-XAbstractionLibrary-Base_Tests.prerelease.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
