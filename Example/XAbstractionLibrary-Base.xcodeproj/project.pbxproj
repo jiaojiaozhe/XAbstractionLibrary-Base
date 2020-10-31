@@ -539,7 +539,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XAbstractionLibrary-Base/XAbstractionLibrary-Base-Prefix.pch";
 				INFOPLIST_FILE = "XAbstractionLibrary-Base/XAbstractionLibrary-Base-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.study.xabstractionlibrary.base;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -562,7 +562,7 @@
 					"RELEASE=1",
 				);
 				INFOPLIST_FILE = "XAbstractionLibrary-Base/XAbstractionLibrary-Base-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.study.xabstractionlibrary.base;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -677,7 +677,7 @@
 					"PRERELEASE=1",
 				);
 				INFOPLIST_FILE = "XAbstractionLibrary-Base/XAbstractionLibrary-Base-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.study.xabstractionlibrary.base;
 				PRODUCT_NAME = "$(TARGET_NAME)";
