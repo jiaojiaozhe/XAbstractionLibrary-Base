@@ -1,17 +1,14 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
+//
+//  XAbstractionLibrary-Base-Umbrella.h
+//  XAbstractionLibrary-Base
+//
+//  Created by 兰彪 on 2020/10/31.
+//
+
+#ifndef XAbstractionLibrary_Base_Umbrella_h
+#define XAbstractionLibrary_Base_Umbrella_h
 
 #import "KeychainItemWrapper.h"
-#import "XAbstractionLibrary-Base-Umbrella.h"
 #import "XData.h"
 #import "NSString+XCommon.h"
 #import "UIImage+Common.h"
@@ -37,6 +34,4 @@
 #import "XViewMacros.h"
 #import "XWeakMacros.h"
 
-FOUNDATION_EXPORT double XAbstractionLibrary_BaseVersionNumber;
-FOUNDATION_EXPORT const unsigned char XAbstractionLibrary_BaseVersionString[];
-
+#endif /* XAbstractionLibrary_Base_Umbrella_h */
