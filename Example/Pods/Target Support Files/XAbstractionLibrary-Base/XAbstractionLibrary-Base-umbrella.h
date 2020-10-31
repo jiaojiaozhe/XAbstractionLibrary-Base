@@ -11,7 +11,6 @@
 #endif
 
 #import "KeychainItemWrapper.h"
-#import "XAbstractionLibrary-Base-Umbrella.h"
 #import "XData.h"
 #import "NSString+XCommon.h"
 #import "UIImage+Common.h"
